@@ -44,6 +44,7 @@ public class GameFrame extends JFrame implements Runnable,KeyListener {
 	public void keyTyped(KeyEvent e) {
 		// TODO Auto-generated method stub
 		System.out.println(e.getKeyChar());
+		System.out.println(gp.getgreeny());
 	}
 
 	@Override

@@ -68,7 +68,11 @@ public class GamePanel extends JPanel {
 		}
 
 	}
+public double getgreeny()
+{
 
+	return greeny;
+}
 	private void bluebutton(Graphics g2) {
 		g2.drawImage(image4, (int) bluex, (int) bluey, 70, 30, null);
 	}
