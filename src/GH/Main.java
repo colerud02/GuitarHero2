@@ -3,7 +3,7 @@ package GH;
 import Game.Game;
 import Graphics.GameFrame;
 
-public class Main 
+public class Main  
 {	
 	GameFrame gf;
 	Game g;
@@ -26,5 +26,7 @@ private void init()
 {
 	g= new Game();
 	gf = new GameFrame(g);
+	gf.setSize(1000, 500);
+
 }
 }
